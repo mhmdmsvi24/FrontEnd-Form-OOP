@@ -1,0 +1,13 @@
+:root {
+  /* BackGround */
+  --background-main: #eec9c9;
+  --background-secondary: #606c38ff;
+
+  /* Text */
+  --text-main: #283618ff;
+  --text-secondary: #fefae0ff;
+
+  /* Button */
+  --botton--main: #bc6c25ff;
+  --botton-secondary: #dda15eff;
+}
