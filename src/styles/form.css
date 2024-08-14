@@ -1,15 +1,67 @@
-/* Themes 
---background-main: #eec9c9;
---background-secondary: #606c38ff;
---text-main: #283618ff;
---text-secondary: #fefae0ff;
---botton--main: #bc6c25ff;
---botton-secondary: #dda15eff;
-*/
+/* Utilitie Classes */
+.d-none {
+  display: none !important;
+}
 
+/* Form Wrapper */
 #form__wrapper {
-  width: 380px;
-  height: 600px;
+  background-color: var(--bg-secondary);
 
-  background-color: var(--background-secondary);
+  width: 380px;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+
+#signin__form {
+  height: 100%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  gap: 0.7rem;
+}
+
+/* Input  */
+#form__wrapper input {
+  background-color: var(--bg-main);
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: var(--border-3rem);
+}
+
+/* Date Input */
+.signin__birth__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* Submit Button */
+.submit__wrapper button {
+  background-color: var(--bg-button);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-3rem);
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+
+.submit__wrapper {
+  margin-top: 0.8rem;
+}
+
+.submit__wrapper button:active {
+  outline: none;
+}
+
+.submit__wrapper button:hover {
+  background-color: var(--bg-button-hover);
+}
+
+/* Error Box */
+.signin__box div {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 1;
 }

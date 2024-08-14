@@ -1,13 +1,12 @@
 :root {
   /* BackGround */
-  --background-main: #eec9c9;
-  --background-secondary: #606c38ff;
-
-  /* Text */
-  --text-main: #283618ff;
-  --text-secondary: #fefae0ff;
+  --bg-main: #240046;
+  --bg-secondary: #edf2f4;
 
   /* Button */
-  --botton--main: #bc6c25ff;
-  --botton-secondary: #dda15eff;
+  --bg-button: #3017cf;
+  --bg-button-hover: #3819e5;
+
+  /* border */
+  --border-3rem: 0.3rem;
 }

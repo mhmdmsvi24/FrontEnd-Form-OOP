@@ -39,6 +39,7 @@ body {
   box-sizing: inherit;
   list-style-type: none;
   text-decoration: none;
+  background-color: var(--bg-main);
 }
 
 #app {
@@ -49,4 +50,18 @@ body {
   place-items: center;
 
   font-family: "roboto light";
+}
+
+input {
+  display: block;
+}
+
+input {
+  border: none;
+  width: 100%;
+}
+
+input:focus,
+input:active {
+  outline: none;
 }

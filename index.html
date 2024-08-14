@@ -8,7 +8,84 @@
   </head>
   <body>
     <div id="app">
-      <div id="form__wrapper">Hello Hi from the font</div>
+      <div id="form__wrapper">
+        <form id="signin__form">
+          <div class="signin__box">
+            <div>
+              <label for="reg-user">Username</label>
+              <span class="signin__error--username"></span>
+            </div>
+            <input type="text" name="reg-user" id="reg-user" />
+          </div>
+          <div class="signin__box">
+            <!-- ! Change Type to pass after testing -->
+            <div>
+              <label for="reg-pass">Password</label>
+              <span class="signin__error--password error__box"></span>
+            </div>
+            <input type="text" name="reg-pass" id="reg-pass" />
+          </div>
+          <div class="signin__box">
+            <!-- ! Change Type to pass after testing -->
+            <div>
+              <label for="reg-repass">Repeat Password</label>
+              <span class="signin__error--repass error__box"></span>
+            </div>
+            <input type="text" name="reg-repass" id="reg-repass" />
+          </div>
+          <div class="signin__box">
+            <div>
+              <label for="reg-phone">Phone Number</label>
+              <span class="signin__error--phone error__box"></span>
+            </div>
+            <input type="tel" name="reg-phone" id="reg-phone" />
+          </div>
+          <div class="signin__box">
+            <div>
+              <label for="reg-mail">Email</label>
+              <span class="signin__error--email error__box"></span>
+            </div>
+            <input type="email" name="reg-mail" id="reg-mail" />
+          </div>
+          <div class="signin__box">
+            <div>
+              <label for="reg-birth">Date Of Birth</label>
+              <span class="signin__error--dob error__box"></span>
+            </div>
+            <div class="signin__birth__wrapper">
+              <input type="date" name="dob" id="dob" />
+            </div>
+          </div>
+
+          <div class="submit__wrapper">
+            <button type="submit">Register</button>
+          </div>
+        </form>
+
+        <!-- * Login Form -->
+        <form id="login__form" class="d-none">
+          <div class="login__username">
+            <div>
+              <label for="username">Username</label>
+              <span class="login__error--user error__box"></span>
+            </div>
+            <input type="text" name="username" id="username" />
+          </div>
+
+          <div class="login__password">
+            <div>
+              <label for="password">Password</label>
+              <span class="login__error--pass error__box"></span>
+            </div>
+            <!-- ! change the type to password -->
+            <input type="text" name="username" id="password" />
+          </div>
+
+          <div class="submit__wrapper">
+            <button type="submit">Login</button>
+          </div>
+        </form>
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
