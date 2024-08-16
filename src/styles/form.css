@@ -3,6 +3,14 @@
   display: none !important;
 }
 
+.color-error {
+  color: red !important;
+}
+
+.fs-small {
+  font-size: small;
+}
+
 /* Form Wrapper */
 #form__wrapper {
   background-color: var(--bg-secondary);
@@ -60,8 +68,16 @@
 }
 
 /* Error Box */
-.signin__box div {
+.signin__box div,
+.login__box div {
   display: flex;
   justify-content: space-between;
   flex-shrink: 1;
+}
+
+#form-switcher {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9em;
 }

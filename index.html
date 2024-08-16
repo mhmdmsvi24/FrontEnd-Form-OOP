@@ -15,7 +15,12 @@
               <label for="reg-user">Username</label>
               <span class="signin__error--username"></span>
             </div>
-            <input type="text" name="reg-user" id="reg-user" />
+            <input
+              type="text"
+              name="reg-user"
+              id="reg-user"
+              autocomplete="off"
+            />
           </div>
           <div class="signin__box">
             <!-- ! Change Type to pass after testing -->
@@ -23,7 +28,12 @@
               <label for="reg-pass">Password</label>
               <span class="signin__error--password error__box"></span>
             </div>
-            <input type="text" name="reg-pass" id="reg-pass" />
+            <input
+              type="text"
+              name="reg-pass"
+              id="reg-pass"
+              autocomplete="off"
+            />
           </div>
           <div class="signin__box">
             <!-- ! Change Type to pass after testing -->
@@ -31,29 +41,44 @@
               <label for="reg-repass">Repeat Password</label>
               <span class="signin__error--repass error__box"></span>
             </div>
-            <input type="text" name="reg-repass" id="reg-repass" />
+            <input
+              type="text"
+              name="reg-repass"
+              id="reg-repass"
+              autocomplete="off"
+            />
           </div>
           <div class="signin__box">
             <div>
               <label for="reg-phone">Phone Number</label>
               <span class="signin__error--phone error__box"></span>
             </div>
-            <input type="tel" name="reg-phone" id="reg-phone" />
+            <input
+              type="tel"
+              name="reg-phone"
+              id="reg-phone"
+              autocomplete="off"
+            />
           </div>
           <div class="signin__box">
             <div>
               <label for="reg-mail">Email</label>
               <span class="signin__error--email error__box"></span>
             </div>
-            <input type="email" name="reg-mail" id="reg-mail" />
+            <input
+              type="email"
+              name="reg-mail"
+              id="reg-mail"
+              autocomplete="off"
+            />
           </div>
           <div class="signin__box">
             <div>
-              <label for="reg-birth">Date Of Birth</label>
+              <label for="reg-dob">Date Of Birth</label>
               <span class="signin__error--dob error__box"></span>
             </div>
             <div class="signin__birth__wrapper">
-              <input type="date" name="dob" id="dob" />
+              <input type="date" name="dob" id="reg-dob" autocomplete="off" />
             </div>
           </div>
 
@@ -64,27 +89,38 @@
 
         <!-- * Login Form -->
         <form id="login__form" class="d-none">
-          <div class="login__username">
+          <div class="login__box">
             <div>
               <label for="username">Username</label>
               <span class="login__error--user error__box"></span>
             </div>
-            <input type="text" name="username" id="username" />
+            <input
+              type="text"
+              name="username"
+              id="username"
+              autocomplete="off"
+            />
           </div>
 
-          <div class="login__password">
+          <div class="login__box">
             <div>
               <label for="password">Password</label>
               <span class="login__error--pass error__box"></span>
             </div>
             <!-- ! change the type to password -->
-            <input type="text" name="username" id="password" />
+            <input
+              type="text"
+              name="username"
+              id="password"
+              autocomplete="off"
+            />
           </div>
 
           <div class="submit__wrapper">
             <button type="submit">Login</button>
           </div>
         </form>
+        <a href="" id="form-switcher">Already have an account? login</a>
       </div>
     </div>
     <script type="module" src="/main.js"></script>
